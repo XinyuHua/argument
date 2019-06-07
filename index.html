@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>summarise.github.io</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./static/Bootswatch_ Spacelab_files/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="./static/Bootswatch_ Spacelab_files/custom.min.css">
+    <script type="text/javascript" async="" src="./static/Bootswatch_Spacelab_files/ga.js.download"></script><script>
+
+     var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-23019901-1']);
+      _gaq.push(['_setDomainName', "bootswatch.com"]);
+        _gaq.push(['_setAllowLinker', true]);
+      _gaq.push(['_trackPageview']);
+
+     (function() {
+       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+     })();
+
+    </script>
+  <script id="_carbonads_projs" type="text/javascript" src="./static/Bootswatch_Spacelab_files/CKYIE23N.json"></script>
+<script async="" type="text/javascript" src="./static/Bootswatch_ Spacelab_files/carbon.js.download" id="_carbonads_js"></script></head>
+  <body>
+
+  <body>
+  <div class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">Summarization Demo</a>
+    	<div class="collapse navbar-collapse">
+        <ul class="nav nav-pills">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><font color="white">Choose one sample here.</font></a>
+
+    <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, 60px, 0px);" data-stopPropagation='true'>
+
+  
+      <div class="custom-control custom-radio">
+      <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input" checked="">
+      <label class="custom-control-label" for="customRadio1" >Sample 1</label>
+    </div>
+    <div class="custom-control custom-radio">
+      <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+      <label class="custom-control-label" for="customRadio2">Sample 2</label>
+    </div>
+    <div class="custom-control custom-radio">
+      <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
+      <label class="custom-control-label" for="customRadio3">Sample 3</label>
+    </div>
+  </div>
+  </li>
+        </ul>
+        </div>
+    </div>
+  </div>
+
+
+    <p></p>
+
+<div class="container">
+<p>Please select a sample document (above). By clicking the "Summarize" botton, a sequence of salient sentences are selected (and boldfaced in the input article) and then summarized into a concise abstractive summary.</p>
+<p>Entity mentions of the same entity are highlighted with the same color in the input.</p>
+<p>Summary sentence is rewritten and condensed from the selected sentences (or part of) of the same color.</p>
+</div>
+
+<div class="container">
+<div class="row">
+            <div class="col col-12 col-md-12">
+                <button type="button" class="btn btn-primary" id="translate-button">Summarize</button>
+                </div>
+        </div>
+</div>
+
+   <p></p>
+
+<div class="container">
+<div class="jumbotron">
+      <div class="panel panel-default">
+	<span class="label label-default" style="font-size:2em">Input Article</span>
+	<div class="panel-body">
+	  <span id="processed_input" class="output-text"></span>
+	</div>
+      </div>
+</div>
+</div>
+    <p></p>
+<div class="container">
+<div class="jumbotron">
+      <div class="panel panel-default">
+	<span class="label label-default" style="font-size:2em">Selected Sentences</span>
+	<div class="panel-body">
+	  <span id="selected_sentences" class="output-text"></span>
+	  <span style="display:none;" id="system_1_ready" class = "output-text"></span>
+	</div>
+      </div>
+</div>
+</div>
+<p></p>
+<div class="container">
+<div class="jumbotron">
+      <div class="panel panel-default">
+	<span class="label label-default" style="font-size:2em">Abstractive Summary</span>
+	<div class="panel-body">
+	  <span id="summary" class="output-text"></span>
+	  <span style="display:none;" id="system_2_ready" class = "output-text"></span>
+	</div>
+      </div>
+  </div>
+</div>
+
+<!--<div id="footer">-->
+  <!--<div class="container">-->
+    <!--<div class="bg-warning" style="text-align:center"><b>Disclaimer:</b> All the entries made in this website will be logged for academic research.</div>-->
+  <!--</div>-->
+<!--</div>-->
+
+    <script src="./static/Bootswatch_ Spacelab_files/jquery.min.js.download"></script>
+    <script src="./static/Bootswatch_ Spacelab_files/popper.min.js.download"></script>
+    <script src="./static/Bootswatch_ Spacelab_files/bootstrap.min.js.download"></script>
+    <script src="./static/Bootswatch_ Spacelab_files/custom.js.download"></script>
+<script src="./static/js/stories.js"></script>
+
+<div id="footer">
+
+</div>
+</body>
+</html>
